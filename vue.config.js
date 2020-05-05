@@ -4,7 +4,13 @@
 // 	},
 // };
 
+// module.exports = {
+// 	publicPath: '/memo/',
+// 	outputDir: 'dist',
+// };
+
 module.exports = {
-	publicPath: '/memo/',
 	outputDir: 'dist',
+	assetsDir: './',
+	publicPath: './',
 };
