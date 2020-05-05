@@ -21,11 +21,5 @@
 
 module.exports = {
 	publicPath: '/memo/',
-	outputDir: 'dist',
+	outputDir: 'docs',
 };
-
-// module.exports = {
-//   publicPath: process.env.NODE_ENV === 'production'
-//     ? '/production-sub-path/'
-//     : '/'
-// }
