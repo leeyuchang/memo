@@ -9,8 +9,15 @@
 // 	outputDir: 'dist',
 // };
 
+// module.exports = {
+// 	outputDir: 'dist',
+// 	assetsDir: './',
+// 	publicPath: './',
+// };
+
 module.exports = {
-	outputDir: 'dist',
-	assetsDir: './',
-	publicPath: './',
+	publicPath:
+		process.env.NODE_ENV === 'production'
+			? '/' + process.env.CI_PROJECT_NAME + '/'
+			: '/',
 };
